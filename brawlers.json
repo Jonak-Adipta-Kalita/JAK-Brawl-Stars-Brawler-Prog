@@ -92,7 +92,7 @@
 			"id": 11,
 			"name": "Stu",
 			"image": "stu.png",
-			"gadget": ["Speed Zone", null],
+			"gadget": ["Speed Zone", "Breakthrough"],
 			"starpower": ["Zero Drag", "Gaso Heal"],
 			"category": "Trophy Road Brawler"
 		},
@@ -372,7 +372,7 @@
 			"id": 46,
 			"name": "Colonel Ruffs",
 			"image": "colonel_ruffs.png",
-			"gadget": ["Take Cover", null],
+			"gadget": ["Take Cover", "Air Support"],
 			"starpower": ["Air Superiority", "Field Promotions"],
 			"category": "Chromatic Brawler"
 		},
