@@ -40,7 +40,7 @@ const displayPopup = (brawleir, id) => {
 			<div class="card">
 				<img class="card-image" src="${image}" />
 				<h2 class="card-title">
-					${brawleir.brawlers[id].id}. ${brawleir.brawlers[id - 1].name}
+					${brawleir.brawlers[id - 1].id + 1}. ${brawleir.brawlers[id - 1].name}
 				</h2>
 				<p>
 					<small>Gadgets: </small>${gadget} | Star Powers: </small>${starpower}
