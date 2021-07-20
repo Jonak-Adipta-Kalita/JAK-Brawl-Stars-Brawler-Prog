@@ -32,8 +32,21 @@ const selectBrawler = async (id) => {
 
 const displayPopup = (brawleir, id) => {
 	const image = `./images/${brawleir.brawlers[id - 1].image}`;
-	const gadget = Array(brawleir.brawlers[id - 1].gadget).map((gadg) => gadg.join(", "));
-	const starpower = Array(brawleir.brawlers[id - 1].starpower).map((star) => star.join(", "));
+	let gadget
+	let starpower
+
+	if (brawleir.brawlers[id - 1].gadget[1] === null) {
+		gadget = Array(brawleir.brawlers[id - 1].gadget).map((gadg) => gadg[0]);
+	} else {
+		gadget = Array(brawleir.brawlers[id - 1].gadget).map((gadg) => gadg.join(", "));
+	}
+	
+	if (brawleir.brawlers[id - 1].starpower[1] === null) {
+		starpower = Array(brawleir.brawlers[id - 1].starpower).map((star) => star[0]);
+	} else {
+		starpower = Array(brawleir.brawlers[id - 1].starpower).map((star) => star.join(", "));
+	}
+
 	const htmlString = `
 		<div class="popup">
 			<button id="closeBtn" onclick="closePopup()">Close</button>
