@@ -316,7 +316,7 @@
 			"id": 39,
 			"name": "Leon",
 			"image": "leon.png",
-			"gadget": ["Clone Projector", null],
+			"gadget": ["Clone Projector", "Lollipop Drop"],
 			"starpower": ["Smoke Trails", "Invisiheal"],
 			"category": "Legendary Brawler"
 		},
@@ -340,7 +340,7 @@
 			"id": 42,
 			"name": "Gale",
 			"image": "gale.png",
-			"gadget": ["Spring Ejector", null],
+			"gadget": ["Spring Ejector", "Twister"],
 			"starpower": ["Blustery Blow", "Freezing Snow"],
 			"category": "Chromatic Brawler"
 		},
