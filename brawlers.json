@@ -180,7 +180,7 @@
 			"id": 22,
 			"name": "Pam",
 			"image": "pam.png",
-			"gadget": ["Pulse Modulator", null],
+			"gadget": ["Pulse Modulator", "ScrapSucker"],
 			"starpower": ["Mama's Hug", "Mama's Squeeze"],
 			"category": "Epic Brawler"
 		},
@@ -364,7 +364,7 @@
 			"id": 45,
 			"name": "Lou",
 			"image": "lou.png",
-			"gadget": ["Ice Block", null],
+			"gadget": ["Ice Block", "Cryo Syrup"],
 			"starpower": ["Supercool", "Hypothermia"],
 			"category": "Chromatic Brawler"
 		},
