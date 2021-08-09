@@ -229,7 +229,7 @@
 			"name": "Griff",
 			"image": "griff.png",
 			"gadget": ["Piggy Bank", null],
-			"starpower": ["Keep the Change", null],
+			"starpower": ["Keep the Change", "Business Resilience"],
 			"category": "Epic Brawler"
 		},
 		{
