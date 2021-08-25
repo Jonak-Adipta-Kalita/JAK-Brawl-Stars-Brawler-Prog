@@ -391,6 +391,14 @@
 			"gadget": ["Reserve Buoy", null],
 			"starpower": ["Tougher Torpedo", "Eyes Sharp"],
 			"category": "Chromatic Brawler"
+		},
+		{
+			"id": 49,
+			"name": "Ash",
+			"image": "ash.png",
+			"gadget": ["Chill Pill", null],
+			"starpower": ["First Bash", "Mad As Heck"],
+			"category": "Chromatic Brawler"
 		}
 	]
 }
