@@ -405,7 +405,7 @@
 			"name": "Meg",
 			"image": "meg.png",
 			"gadget": ["Jolting Volts", null],
-			"starpower": ["Force Field", null],
+			"starpower": ["Force Field", "Self Destruction"],
 			"category": "Legendary Brawler"
 		}
 	]
