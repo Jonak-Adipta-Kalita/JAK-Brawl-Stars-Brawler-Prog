@@ -407,6 +407,14 @@
 			"gadget": ["Jolting Volts", null],
 			"starpower": ["Force Field", "Self Destruction"],
 			"category": "Legendary Brawler"
+		},
+		{
+			"id": 51,
+			"name": "Lola",
+			"image": "lola.png",
+			"gadget": ["Freeze Frames", null],
+			"starpower": ["Improvise", "Sealed With A Kiss"],
+			"category": "Chromatic Brawler"
 		}
 	]
 }
