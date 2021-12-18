@@ -415,6 +415,22 @@
 			"gadget": ["Freeze Frames", null],
 			"starpower": ["Improvise", "Sealed With A Kiss"],
 			"category": "Chromatic Brawler"
+		},
+		{
+			"id": 52,
+			"name": "Grom",
+			"image": "grom.png",
+			"gadget": ["Guardia", null],
+			"starpower": ["Tallow in the Shins", "Factor X"],
+			"category": "Epic Brawler"
+		},
+		{
+			"id": 53,
+			"name": "Fang",
+			"image": "fang.png",
+			"gadget": ["Corn Foo", null],
+			"starpower": ["Fresh Kicks", null],
+			"category": "Chromatic Brawler"
 		}
 	]
 }
