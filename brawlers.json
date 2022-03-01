@@ -45,7 +45,7 @@
 			"name": "Brock",
 			"image": "brock.png",
 			"gadget": ["Rocket Laces", "Rocket Fuel"],
-			"starpower": ["Incendiary", "Rocket No. Four"],
+			"starpower": ["More Rockets", "Rocket No. Four"],
 			"category": "Trophy Road Brawler"
 		},
 		{
@@ -84,7 +84,7 @@
 			"id": 10,
 			"name": "Emz",
 			"image": "emz.png",
-			"gadget": ["Friend Zoner", null],
+			"gadget": ["Friend Zoner", "Acid Spray"],
 			"starpower": ["Bad Karma", "Hype"],
 			"category": "Trophy Road Brawler"
 		},
@@ -196,7 +196,7 @@
 			"id": 24,
 			"name": "Bibi",
 			"image": "bibi.png",
-			"gadget": ["Vitamin Booster", null],
+			"gadget": ["Vitamin Booster", "Extra Stikcy"],
 			"starpower": ["Home Run", "Batting Stance"],
 			"category": "Epic Brawler"
 		},
@@ -284,7 +284,7 @@
 			"id": 35,
 			"name": "Byron",
 			"image": "byron.png",
-			"gadget": ["Shot In The Arm", null],
+			"gadget": ["Shot In The Arm", "Booster Shots"],
 			"starpower": ["Malaise", "Injection"],
 			"category": "Mythic Brawler"
 		},
@@ -292,7 +292,7 @@
 			"id": 36,
 			"name": "Squeak",
 			"image": "squeak.png",
-			"gadget": ["Windup", null],
+			"gadget": ["Windup", "Residue"],
 			"starpower": ["Chain Reaction", "Super Sticky"],
 			"category": "Mythic Brawler"
 		},
@@ -356,7 +356,7 @@
 			"id": 44,
 			"name": "Colette",
 			"image": "colette.png",
-			"gadget": ["Na-Ah", null],
+			"gadget": ["Na-Ah", "Gotcha!"],
 			"starpower": ["Push It", "Mass Tax"],
 			"category": "Chromatic Brawler"
 		},
@@ -380,7 +380,7 @@
 			"id": 47,
 			"name": "Belle",
 			"image": "belle.png",
-			"gadget": ["Nest Egg", null],
+			"gadget": ["Nest Egg", "Reverse Polarity"],
 			"starpower": ["Positive Feedback", "Grounded"],
 			"category": "Chromatic Brawler"
 		},
@@ -396,7 +396,7 @@
 			"id": 49,
 			"name": "Ash",
 			"image": "ash.png",
-			"gadget": ["Chill Pill", null],
+			"gadget": ["Chill Pill", "Rotten Banana"],
 			"starpower": ["First Bash", "Mad As Heck"],
 			"category": "Chromatic Brawler"
 		},
@@ -412,7 +412,7 @@
 			"id": 51,
 			"name": "Lola",
 			"image": "lola.png",
-			"gadget": ["Freeze Frames", null],
+			"gadget": ["Freeze Frames", "Stunt Double"],
 			"starpower": ["Improvise", "Sealed With A Kiss"],
 			"category": "Chromatic Brawler"
 		},
@@ -420,7 +420,7 @@
 			"id": 52,
 			"name": "Grom",
 			"image": "grom.png",
-			"gadget": ["Guardia", null],
+			"gadget": ["Guardia", "Radio Check"],
 			"starpower": ["Tallow in the Shins", "Factor X"],
 			"category": "Epic Brawler"
 		},
@@ -428,8 +428,16 @@
 			"id": 53,
 			"name": "Fang",
 			"image": "fang.png",
-			"gadget": ["Corn Foo", null],
+			"gadget": ["Corn Foo", "Roundhouse Kick"],
 			"starpower": ["Fresh Kicks", null],
+			"category": "Chromatic Brawler"
+		},
+		{
+			"id": 54,
+			"name": "Eve",
+			"image": "eve.png",
+			"gadget": ["", null],
+			"starpower": ["", null],
 			"category": "Chromatic Brawler"
 		}
 	]
