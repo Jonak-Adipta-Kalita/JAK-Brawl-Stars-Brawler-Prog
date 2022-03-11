@@ -436,8 +436,8 @@
 			"id": 54,
 			"name": "Eve",
 			"image": "eve.png",
-			"gadget": ["", null],
-			"starpower": ["", null],
+			"gadget": ["Gotta Go!", "Motherly Love"],
+			"starpower": ["Unnatural Order", "Happy Surprise"],
 			"category": "Chromatic Brawler"
 		}
 	]
