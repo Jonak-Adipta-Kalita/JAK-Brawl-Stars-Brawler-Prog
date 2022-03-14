@@ -1,13 +1,18 @@
 const dex = document.getElementById('dex');
 const fetchBrawlers = async () => {
-    const url = "/brawlers.json";
-	const res = await fetch(url);
+	const res = await fetch("https://jak_api.p.rapidapi.com/brawlStars", {
+		"method": "GET",
+		"headers": {
+			"x-rapidapi-host": "jak_api.p.rapidapi.com",
+			"x-rapidapi-key": "d3474315fcmshe6f03eb826f16bcp181f82jsn7d262d2601be"
+		}
+	});
 	const data = await res.json();
 	console.log(data);
 	const brawlers = data.brawlers.map((result, index) => ({
 		...result,
 		id: index + 1,
-		image: `./images/${result.image}`
+		image: `https://jak-api.vercel.app/${result.image}`
 	}));
 	displayBrawlers(brawlers);
 };
@@ -24,14 +29,19 @@ const displayBrawlers = (brawler) => {
 };
 
 const selectBrawler = async (id) => {
-	const url = `/brawlers.json`;
-	const res = await fetch(url);
+	const res = await fetch("https://jak_api.p.rapidapi.com/brawlStars", {
+		"method": "GET",
+		"headers": {
+			"x-rapidapi-host": "jak_api.p.rapidapi.com",
+			"x-rapidapi-key": "d3474315fcmshe6f03eb826f16bcp181f82jsn7d262d2601be"
+		}
+	});
 	const brawleir = await res.json();
 	displayPopup(brawleir, id);
 };
 
 const displayPopup = (brawleir, id) => {
-	const image = `./images/${brawleir.brawlers[id - 1].image}`;
+	const image = `https://jak-api.vercel.app/${brawleir.brawlers[id - 1].image}`;
 	let gadget
 	let starpower
 
